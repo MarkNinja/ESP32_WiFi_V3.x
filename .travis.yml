@@ -35,6 +35,7 @@ env:
   - PIO_ENV=openevse_esp32-gateway
   - PIO_ENV=openevse_esp32-gateway-e
   - PIO_ENV=openevse_esp32-heltec-wifi-lora-v2
+  - PIO_ENV=openevse_esp32doit-devkit-v1
   # - SCRIPT=ci_arduino.sh
   #   BUILD_TARGET=esp8266:esp8266:huzzah:FlashSize=4M1M
 

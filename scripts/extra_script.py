@@ -7,14 +7,17 @@ import requests
 import subprocess
 import sys
 
-Import("env")
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
+Import("env")
 # Install pre-requisites
 npm_installed = (0 == system("npm --version"))
 
 #
 # Dump build environment (for debug)
-# print env.Dump()
+#print env.Dump()
 #print("Current build targets", map(str, BUILD_TARGETS))
 #
 
